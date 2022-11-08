@@ -1,0 +1,61 @@
+{
+  "name": "later-security-code",
+  "version": "0.1.0",
+  "description": "A Redux binding for React Router v4 and v5",
+  "homepage": "https://github.com/artisanship/later-theme/",
+  "private": true,
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "unpkg": "dist/unpkg/later-theme.min.js",
+  "types": "dist/cjs/index.d.ts",
+  "files": [
+    "dist",
+    "es"
+  ],
+  "scripts": {
+    "start": "father dev",
+    "build": "father build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "rc-tooltip": "5.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/node": "^18.11.7",
+    "@types/react": "^18.0.24",
+    "@typescript-eslint/parser": "^5.41.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "classnames": "^2.3.2",
+    "cross-env": "^7.0.3",
+    "father": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-dom": ">=18.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artisanship/later-security-code"
+  },
+  "authors": [
+    "小强 <lewis@toolate.com> (https://github.com/artisanship)"
+  ]
+}
