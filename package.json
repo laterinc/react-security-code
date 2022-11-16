@@ -1,27 +1,22 @@
 {
   "name": "later-security-code",
   "version": "0.1.0",
-  "description": "A Redux binding for React Router v4 and v5",
-  "homepage": "https://github.com/artisanship/later-theme/",
+  "description": "Security Code Component for React",
+  "homepage": "https://github.com/artisanship/later-security-code/",
   "private": true,
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "unpkg": "dist/unpkg/later-theme.min.js",
+  "unpkg": "dist/unpkg/later-security-code.min.js",
   "types": "dist/cjs/index.d.ts",
   "files": [
     "dist",
     "es"
   ],
   "scripts": {
-    "start": "father dev",
-    "build": "father build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "father build"
   },
-  "dependencies": {
-    "rc-tooltip": "5.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
