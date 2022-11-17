@@ -1,6 +1,6 @@
 {
   "name": "@laterjs/react-security-code",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Security Code Component for React",
   "homepage": "https://github.com/artisanship/react-security-code/",
   "license": "MIT",
