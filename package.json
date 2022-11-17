@@ -1,12 +1,12 @@
 {
-  "name": "later-security-code",
-  "version": "0.1.3",
+  "name": "@laterjs/react-security-code",
+  "version": "0.1.0",
   "description": "Security Code Component for React",
   "homepage": "https://github.com/artisanship/later-security-code/",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "unpkg": "dist/unpkg/later-security-code.min.js",
+  "unpkg": "dist/unpkg/react-security-code.min.js",
   "types": "dist/cjs/index.d.ts",
   "files": [
     "dist"

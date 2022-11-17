@@ -3,13 +3,13 @@ Security Code Component for React
 
 ## 📦 Installation
 ```sh
-npm i later-security-code
+npm i @laterjs/react-security-code
 ```
 
 ## 🔨 Usage
 
 ```tsx
-import { SecurityCode, ToSecurityCodeRef } from 'later-security-code';
+import { SecurityCode, ToSecurityCodeRef } from '@laterjs/react-security-code';
 import { useRef, MutableRefObject } from "react";
 
 export default () => {
