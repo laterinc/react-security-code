@@ -2,7 +2,7 @@
   "name": "@laterjs/react-security-code",
   "version": "0.1.0",
   "description": "Security Code Component for React",
-  "homepage": "https://github.com/artisanship/later-security-code/",
+  "homepage": "https://github.com/artisanship/react-security-code/",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/artisanship/later-security-code"
+    "url": "https://github.com/artisanship/react-security-code"
   },
   "authors": [
     "小强 <lewis@toolate.com> (https://github.com/artisanship)"
