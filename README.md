@@ -1,4 +1,4 @@
-## later-security-code
+## react-security-code
 Security Code Component for React
 
 ## 📦 Installation
