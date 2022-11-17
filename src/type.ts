@@ -64,4 +64,4 @@ export interface ToSecurityCodeProps {
     pattern?: SecurityCodePattern;
 }
 
-export type SecurityCodePattern = 'number' | 'numberOrLetter';
+export type SecurityCodePattern = 'numeral' | 'numeralOrLetter';

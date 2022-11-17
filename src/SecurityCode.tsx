@@ -14,7 +14,7 @@ const InternalSecurityCode: ForwardRefRenderFunction<ToSecurityCodeRef, ToSecuri
     {
         fields = 4,
         prefilledCode,
-        pattern = 'numberOrLetter',
+        pattern = 'numeralOrLetter',
         onCodeEntered,
         onCodeChanged,
         autoFocus = true,
@@ -97,7 +97,7 @@ const InternalSecurityCode: ForwardRefRenderFunction<ToSecurityCodeRef, ToSecuri
      */
     const handleChange = (value: string | number, event: ChangeEvent<HTMLInputElement> | ClipboardEvent<HTMLInputElement>): void => {
         const indexOfTarget = getIndexOfTargetFromEvent(event);
-        value = String(value).replace(new RegExp(pattern === 'number' ? "[^0-9]" : "[^0-9a-zA-Z]", "g"), "");
+        value = String(value).replace(new RegExp(pattern === 'numeral' ? "[^0-9]" : "[^0-9a-zA-Z]", "g"), "");
 
         if ("" !== value) {
             const _digits = digits.slice();
