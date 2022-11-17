@@ -7,19 +7,27 @@ npm i later-security-code
 ```
 
 ## 🔨 Usage
-```tsx
-import { SecurityCode } from 'later-security-code';
 
-export default () => (
-  <SecurityCode
-    onCodeChanged={() => {
-      console.log('onCodeChanged...')
-    }}
-    onCodeEntered={e => {
-      console.log('onCodeEntered...', e)
-    }}
-    fields={6} />
-)
+```tsx
+import { SecurityCode, ToSecurityCodeRef } from 'later-security-code';
+import { useRef, MutableRefObject } from "react";
+
+export default () => {
+
+  const securityCodeRef = useRef() as MutableRefObject<ToSecurityCodeRef>;
+
+  return (
+    <SecurityCode
+      ref={securityCodeRef}
+      onCodeChanged={digits => {
+        console.log('onCodeChanged...', digits)
+      }}
+      onCodeEntered={digits => {
+        console.log('onCodeEntered...', digits)
+      }}
+      fields={6}/>
+  )
+}
 ```
 
 ## 🖥 Browser compatibility
